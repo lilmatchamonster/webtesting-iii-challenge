@@ -10,7 +10,7 @@ const Display = ({ closed, locked }) => {
       <div className={closedClass}>{closed ? 'Closed' : 'Open'}</div>
     </div>
   );
-};
+};                                                
 
 Display.defaultProps = {
   closed: false,
